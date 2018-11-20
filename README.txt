@@ -75,6 +75,9 @@ This can also be easily added to the current implementation.
 The FamilyTree#addPerson method is responsible for adding a new Person entry. Due to validation checks, it can be executed
 in O(n) mostly because of cycle detection methods that use the Depth-First Search algorithm performed in O(n).
 
+--
+The test class can be found under: src/test/java/com/example/familytree/services/FamilyTreeTest.java.
+
 Q2:
 Adding an entry to the SortedList can be performed in constant time O(1). Sorting the list means iterating over the SortedList
 entries, which can be done in O(n).
